@@ -18,9 +18,9 @@ public class HelloResource {
     /**
     * GET greet
     */
-    @GetMapping("/greet")
+    @GetMapping("/greeting")
     public String greet() {
-        return "greet";
+        return "Hello world";
     }
 
 }
