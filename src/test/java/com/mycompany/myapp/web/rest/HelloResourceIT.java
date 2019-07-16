@@ -35,7 +35,7 @@ public class HelloResourceIT {
      */
     @Test
     public void testGreet() throws Exception {
-        restMockMvc.perform(get("/api/hello/greet"))
+        restMockMvc.perform(get("/api/hello/greeting"))
             .andExpect(status().isOk());
     }
 }
